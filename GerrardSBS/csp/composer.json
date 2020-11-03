@@ -1,0 +1,27 @@
+{
+    "name": "gerrardsbs/module-csp",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "email": "support@gerrardsbs.co.uk",
+            "name": "Gerrard SBS"
+        },
+        {
+            "email": "support@gerrardsbs.co.uk.co.uk",
+            "name": "Paul Hesford"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "magento/module-csp": "100.3.*"
+    }
+    "autoload": {
+        "psr-4": {
+            "GerrardSBS\\csp\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
