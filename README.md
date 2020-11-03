@@ -1,5 +1,6 @@
 # Magento2.5plusCsp
 Magento 2 Csp - Content Security Policies
+https://devdocs.magento.com/guides/v2.4/extension-dev-guide/security/content-security-policies.html
 
 From Magento 2.3.5 onwards a new module as been added to mitigate against Cross Site Scripting (XSS) and related attacks, including card skimmers, session hijacking, clickjacking, and more. Web servers send CSPs in response HTTP headers (namely Content-Security-Policy and Content-Security-Policy-Report-Only) 
 
